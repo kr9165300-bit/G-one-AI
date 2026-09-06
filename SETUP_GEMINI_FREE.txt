@@ -1,0 +1,13 @@
+G ONE AI — GEMINI API SETUP
+
+1) Create a Gemini API key in Google AI Studio.
+2) Copy .env.example to a new file named .env
+3) Put your key only in .env:
+   GEMINI_API_KEY=YOUR_REAL_GEMINI_KEY
+4) Keep GEMINI_MODEL=gemini-2.5-flash-lite
+5) Run START_G_ONE_AI_GEMINI.bat, or:
+   npm.cmd install
+   npm.cmd start
+6) Open http://localhost:3000
+
+Never paste or share your API key in chat, screenshots, GitHub, or frontend code.

@@ -1,0 +1,28 @@
+G ONE AI — OWN API
+
+Your first-party API endpoint:
+POST /api/g-one-ai/chat
+
+JSON body:
+{
+  "message": "Hello G ONE AI"
+}
+
+Response:
+{
+  "success": true,
+  "provider": "gemini",
+  "reply": "..."
+}
+
+API info:
+GET /api/g-one-ai
+
+The API key stays server-side in .env. Do not put it in frontend JavaScript or share it publicly.
+
+Start:
+npm.cmd install
+npm.cmd start
+
+Then open:
+http://localhost:3000
